@@ -41,7 +41,7 @@ Some queries were executed to test the connection and check if the database is a
 
 ## Hints
 
-Doing the project some important point were found and I'like to share them:
+Doing the project some important point were found and I'd like to share them:
 
 1. The best way to load a big amount of data into redshift is using the COPY command, for this project was used  **COPY from JSON format** and sometime you have to indicate the JSON structure of the file in the COPY. To see more documentation: [COPY from JSON format](https://docs.aws.amazon.com/redshift/latest/dg/copy-usage_notes-copy-from-json.html)
 
